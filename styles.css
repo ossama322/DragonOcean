@@ -1,0 +1,103 @@
+<ALOASK-SEPARATE-EDITORS>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20221128/pngtree-retro-neon-background-with-80s-styled-laser-grid-and-stars-from-image_1473014.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    background-color: transparent;
+}
+
+.game-logo-top, .game-logo-bottom {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.game-logo-top {
+    margin-top: 20px;
+}
+
+.game-logo-bottom {
+    width: 250px; /* زيادة الحجم لشعار Mystake */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.game-logo-top:hover, .game-logo-bottom:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.emoji {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.reset-btn {
+    display: none;
+    background-color: #FF6347;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.reset-btn:hover {
+    background-color: #FF4500;
+}
+
+/* تنسيق العنوان أسفل الشعار */
+.game-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow; /* تغيير اللون إلى الأصفر */
+    margin-top: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}<ALOASK-SEPARATE-EDITORS>
